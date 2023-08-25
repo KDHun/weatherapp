@@ -1,0 +1,28 @@
+.citiesTemperatures {
+  margin: 5dvh 10dvh 5dvh 20dvh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.temperature {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.cityName {
+  font-weight: bold;
+  flex: 1;
+}
+
+.temperatureValue {
+  font-size: 1.2rem;
+  color: #007bff;
+}
